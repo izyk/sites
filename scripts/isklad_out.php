@@ -5,7 +5,8 @@
 	<base href="http://isklad.ru/">
     <title><?php echo $page_title; ?></title>
     <meta name="description" content="<?php echo $page_desc; ?>">
-    <meta name="format-detection" content="telephone=no">
+	<meta name="keywords" content="склад, ответственное хранение, складские услуги, сервис-ориентированный склад">
+	<meta name="author" content="Ilia Zykov">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/default.css"/>
@@ -44,7 +45,7 @@
 
 <nav id="free">
     <div class="inner">
-        <a href="/tariff/" class="menu-item <?php echo $menu_active[4]; ?>"><i class="fa fa-thumbs-up"></i> Бесплатно*.</a>
+        <a href="tariff/" class="menu-item <?php echo $menu_active[4]; ?>"><i class="fa fa-thumbs-up"></i> Бесплатно*.</a>
         <div class="desc">*Два дня с момента разгрузки.</div>
     </div>
 </nav>
@@ -52,12 +53,11 @@
 <footer>
     <div class="inner">
         <nav id="footer-nav" class="clearfix">
-            <a href="#">Услуги</a>
-            <a href="#">Заявки</a>
-            <a href="#">О нас</a>
-            <a href="#">О нас еще раз</a>
-            <a href="#">Цены</a>
-            <a href="#">Ссылки</a>
+            <a href="/">О нас</a>
+            <a href="youcan/">Услуги</a>
+            <a href="keep/">Клиентам</a>
+            <a href="goods/">Товары</a>
+            <a href="tariff/">Цены</a>
         </nav>
     </div>
 </footer>
