@@ -47,7 +47,7 @@ header {
   display: block;
   text-align: center;
   border: 1px solid #f8a403;
-  color: #313131;
+  color: inherit;
   background: #fff;
   line-height: 62px;
   text-transform: uppercase;
@@ -84,7 +84,6 @@ a i.fa {
 
 #content {
   min-height: 40%;
-  color: #313131;
   }
   #content p {
     font-family: Verdana, Arial, sans-serif;
@@ -136,7 +135,7 @@ footer {
     footer #footer-nav a:hover {
       text-decoration: none;
       background: #f8a403;
-	  color: #313131;
+	  color: inherit;
 	  }
 
 @media all and (max-width: 1239px) {

@@ -18,15 +18,12 @@
     
 <header>
     <div class="inner clearfix">
-        
-        <a href="/"><img src="/images/logo.png" alt="" class="logo"></a>
-
+        <a href="/"><img src="/images/logo.png" alt="isklad" class="logo"></a>
         <div class="contact-info">
             <div class="title">Надежный склад</div>
             <p>+7 (977) 948-55-12</p>
             <p><a href="mailto:info@isklad.ru">info@isklad.ru</a></p>
         </div>
-
     </div>
 </header>
 
@@ -40,8 +37,9 @@
 </nav>
 
 <section id="content">
-    <div class="inner"><?php echo $page_body; ?>
-    </div>
+	<div class="inner clearfix">
+		<?php echo $page_body; ?>
+	</div>
 </section>
 
 <nav id="free">

@@ -1,15 +1,24 @@
-/* Colors */
-/* Fonts */
-/* Basics */
 
-/* #content */
-    #content p a.float_a {
-      float: left;
+/* 
+#content {
+  }*/
+  #content {
+	text-align: center;
+    }
+    #content h3:first-child + p {
+	  overflow: auto;
+	}
+    #content h3:first-child + p a {
+	  float: left;
+	  margin: 20px;
+	  display: block;
+	  text-decoration: none;
 	}
     #content p a {
+	  color: inherit;
 	  text-decoration: underline;
 	}
-    #content address {
-      margin-top: -15px;
-      margin-bottom: 20px;
-	}
+  #content address {
+    margin-top: -15px;
+    margin-bottom: 20px;
+    }
