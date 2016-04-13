@@ -1,0 +1,15 @@
+/* Colors */
+/* Fonts */
+/* Basics */
+
+/* #content */
+    #content p a.float_a {
+      float: left;
+	}
+    #content p a {
+	  text-decoration: underline;
+	}
+    #content address {
+      margin-top: -15px;
+      margin-bottom: 20px;
+	}
