@@ -90,10 +90,15 @@ a i.fa {
     line-height: 1.6em;
     font-size: 14px;
     margin-bottom: 20px;
-    margin-top: 10px;
-    text-align: justify;
+    margin-top: 5px;
+    text-align: left;
 	}
-
+  #content h1 {
+    clear: both;
+	text-align: center;
+    font-size: 20px;
+	font-weight: normal;
+    }
 #free {
   padding-top: 30px;
   padding-bottom: 10px;

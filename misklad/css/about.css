@@ -1,17 +1,16 @@
 
 /* 
 #content {
-  }*/
+  }
   #content {
-	text-align: center;
-    }
-    #content h3:first-child + p {
+    }*/
+/*    #content h3:first-child + p {
 	  overflow: auto;
-	}
-    #content h3:first-child + p a {
-	  float: left;
-	  margin: 20px;
-	  display: block;
+	} */
+    #content h1:nth-of-type(2) + p a img {
+	  float: none;
+	  margin: 0px;
+	  display: inline;
 	  text-decoration: none;
 	}
     #content p a {
