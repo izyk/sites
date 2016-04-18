@@ -1,0 +1,13 @@
+
+/* 
+#content {
+  } */
+  #content p.pstrong {
+/*	margin: 0 auto; */
+    text-align: center;
+    }
+  #content strong {
+	font-weight: normal;
+    font-size: 20px;
+    }
+	

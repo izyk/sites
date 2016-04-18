@@ -30,9 +30,9 @@
 <nav id="main-nav">
     <div class="inner clearfix">
         <a href="/" class="menu-item <?php echo $menu_active[0]; ?>"><i class="fa fa-user"></i> Вы можете</a>
-        <a href="/services/" class="menu-item <?php echo $menu_active[1]; ?>"><i class="fa fa-lock"></i> Сохранить</a>
-        <a href="/orders/" class="menu-item <?php echo $menu_active[2]; ?>"><i class="fa fa-archive"></i> Свой груз</a>
-        <a href="/goods/" class="menu-item <?php echo $menu_active[3]; ?>"><i class="fa fa-home"></i> У нас</a>
+        <a href="/orders/" class="menu-item <?php echo $menu_active[1]; ?>"><i class="fa fa-lock"></i> Сохранить</a>
+        <a href="/recommends/" class="menu-item <?php echo $menu_active[2]; ?>"><i class="fa fa-archive"></i> Свой груз</a>
+        <a href="/contacts/" class="menu-item <?php echo $menu_active[3]; ?>"><i class="fa fa-home"></i> У нас</a>
     </div>
 </nav>
 
@@ -53,9 +53,9 @@
     <div class="inner">
         <nav id="footer-nav" class="clearfix">
             <a href="/">Услуги</a>
-            <a href="/services/">Заявки</a>
-            <a href="/orders/">Рекомендации</a>
-            <a href="/goods/">Контакты</a>
+            <a href="/orders/">Заявки</a>
+            <a href="/recommends/">Рекомендации</a>
+            <a href="/contacts/">Контакты</a>
             <a href="/tariff/">Стоимость</a>
         </nav>
     </div>

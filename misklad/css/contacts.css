@@ -1,0 +1,50 @@
+
+/* 
+#content {
+  } */
+  #content address ~ address, #content address + div {
+	margin: 2% 5% 2% 15%;
+	width:	30%;
+	font-weight: normal;
+    font-size: inherit;
+	float: 	left;
+    font-family: inherit;
+    line-height: inherit;
+	font-style: inherit;
+    }
+    #content h1:nth-of-type(1) + p a:first-child img {
+	  float: right;
+	  margin-left: 20px;
+	  margin-right: 0;
+      border: 1px solid #f8a403;
+	  }
+    #content p a {
+	  color: inherit;
+	  text-decoration: underline;
+	}
+  #content h1:nth-of-type(1) + p + address {
+	  width: auto;
+	  margin: 0;
+	  float: right;
+      margin-bottom: 20px;
+    }
+	
+	
+@media all and (max-width: 1279px) {
+  #content address ~ address, #content address + div {
+	margin: 2% 5%;
+	width:	40%;
+    }	
+}
+@media all and (max-width: 799px) {
+  #content address ~ address, #content address + div {
+	margin: 2% 0% 2% 25%;
+	width:	75%;
+    }	
+}
+@media all and (max-width: 539px) {
+  #content address ~ address, #content address + div {
+	margin: 2% 0% 2% 10%;
+	width:	90%;
+    }	
+}
