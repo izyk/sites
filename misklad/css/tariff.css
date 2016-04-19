@@ -4,7 +4,32 @@
   } */
   #content table {
 /*	margin: 0 auto; */
-	border: solid;
+	border-collapse: collapse;
     text-align: center;
+	margin: 0 auto;
+	width: 70%;
     }
-	
+th, td {
+	padding: 10px;
+    border: 1px solid #444;
+	width: 50%;
+  }
+tr:nth-child(even) {
+/*  background-color: #81c784; */
+    border: 1px solid #444;
+  }
+span {
+/*	background-color: #81c784; */
+}
+td {
+  }
+@media all and (max-width: 1279px) {
+  #content table {
+	width: 80%;
+  }
+}
+@media all and (max-width: 799px) {
+  #content table {
+	width: 98%;
+  }
+}

@@ -10,7 +10,7 @@
 	float: 	left;
     font-family: inherit;
     line-height: inherit;
-	font-style: inherit;
+	font-style: italic;
     }
     #content h1:nth-of-type(1) + p a:first-child img {
 	  float: right;
@@ -28,7 +28,6 @@
 	  float: right;
       margin-bottom: 20px;
     }
-	
 	
 @media all and (max-width: 1279px) {
   #content address ~ address, #content address + div {

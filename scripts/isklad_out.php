@@ -53,7 +53,7 @@
     <div class="inner">
         <nav id="footer-nav" class="clearfix">
             <a href="/">Услуги</a>
-            <a href="/orders/">Заявки</a>
+            <a href="/orders/">Пропуск</a>
             <a href="/recommends/">Рекомендации</a>
             <a href="/contacts/">Контакты</a>
             <a href="/tariff/">Стоимость</a>

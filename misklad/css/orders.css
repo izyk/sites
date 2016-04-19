@@ -1,0 +1,34 @@
+
+/* 
+#content {
+  } */
+#content form {
+	width: 50%;
+	margin: 0 auto;
+    }
+#content form fieldset {
+    display: block;
+    padding: 0.5em 1em 0 1em;
+    border: 1px solid #f8a403;
+    } 	
+#content form input {
+    padding: 1em;
+    font-size: 1.4em;
+    font-family: inherit;
+	font-style: inherit;
+    color: inherit;
+	width: 100%;
+    }
+#content p {
+	text-align: center;
+}
+#content h1 + p.perror {
+	color:	#f33;
+}
+
+@media all and (max-width: 799px) {
+#content form {
+	width: 98%;
+	}
+}	
+
