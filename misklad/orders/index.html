@@ -1,11 +1,11 @@
 <?php 
 $page_title="Пропуск, заявка";
 $page_desc="Заказать пропуск на территорию.";
-$page_kwords="пропуск, склад, Москва, Митино";
+$page_kwords="сохранить, груз, пропуск, склад, Москва, Митино";
 $page_css="/css/orders.css";
 $menu_active[0]="";
-$menu_active[1]="active";
-$menu_active[2]="";
+$menu_active[1]="";
+$menu_active[2]="active";
 $menu_active[3]="";
 $menu_active[4]="";
 
@@ -60,9 +60,9 @@ if (isset($_POST['ctruck'])) {
 if ($ok_request == TRUE) {
 	$mail_message="<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><title>Propusk Message</title></head>
 	<body> Message:<br>\r\n$csirname<br>\r\n$cemail<br>\r\nTruck: $ctruck<br>\r\nPhone: $cphone<br>\r\n</body></html>";
-	$mail_result=mail('info@isklad.ru', 'Propusk', $mail_message,
-	"From: info@isklad.ru\nReply-To: info@isklad.ru\nX-Mailer: PHP/".phpversion()."\nMIME-Version: 1.0\nContent-Transfer-Encoding: 8bit\nContent-type: text/html; charset=\"utf-8\";\n\n",
-	'-finfo@isklad.ru');
+	$mail_result=mail('propusk@isklad.ru', 'Propusk', $mail_message,
+	"From: propusk@isklad.ru\nReply-To: propusk@isklad.ru\nX-Mailer: PHP/".phpversion()."\nMIME-Version: 1.0\nContent-Transfer-Encoding: 8bit\nContent-type: text/html; charset=\"utf-8\";\n\n",
+	'-fpropusk@isklad.ru');
 	if ($mail_result == FALSE) {
 		$error_message="Произошел сбой на сервере. Ваш заказ не был отправлен.<br>Пожалуйста. Попробуйте еще раз позже.";
 		$ok_request=FALSE;
