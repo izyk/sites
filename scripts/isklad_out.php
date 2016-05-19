@@ -7,7 +7,7 @@
 	<meta name="keywords"  content="<?php echo $page_kwords; ?>">
 	<meta name="author" content="Ilia Zykov">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.png" type="image/png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/default.css"/>
     <link rel="stylesheet" href="/css/main.css"/>
