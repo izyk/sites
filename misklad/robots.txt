@@ -1,3 +1,4 @@
 
 User-agent: *
 Allow: /
+Sitemap: https://mebel.isklad.ru/sitemap.xml
