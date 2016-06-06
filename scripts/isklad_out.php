@@ -42,9 +42,9 @@
 <nav id="main-nav">
     <div class="inner clearfix">
         <a href="/" class="menu-item <?php echo $menu_active[0]; ?>"><i class="fa fa-user"></i> Вы можете</a>
-        <a href="/recommends/" class="menu-item <?php echo $menu_active[1]; ?>"><i class="fa fa-lock"></i> Сохранить</a>
-        <a href="/orders/" class="menu-item <?php echo $menu_active[2]; ?>"><i class="fa fa-archive"></i> Свой груз</a>
-        <a href="/contacts/" class="menu-item <?php echo $menu_active[3]; ?>"><i class="fa fa-home"></i> У нас</a>
+        <a href="/recomendatsii/" class="menu-item <?php echo $menu_active[1]; ?>"><i class="fa fa-lock"></i> Сохранить</a>
+        <a href="/klientam/" class="menu-item <?php echo $menu_active[2]; ?>"><i class="fa fa-archive"></i> Свой груз</a>
+        <a href="/kontakti/" class="menu-item <?php echo $menu_active[3]; ?>"><i class="fa fa-home"></i> У нас</a>
     </div>
 </nav>
 
@@ -56,7 +56,7 @@
 
 <nav id="free">
     <div class="inner">
-        <a href="/tariff/" class="menu-item <?php echo $menu_active[4]; ?>"><i class="fa fa-thumbs-up"></i> Бесплатно*</a>
+        <a href="/stoimost/" class="menu-item <?php echo $menu_active[4]; ?>"><i class="fa fa-thumbs-up"></i> Бесплатно*</a>
         <div class="desc">*Два дня с момента разгрузки.</div>
     </div>
 </nav>
@@ -65,10 +65,10 @@
     <div class="inner">
         <nav id="footer-nav" class="clearfix">
             <a href="/">Услуги</a>
-            <a href="/recommends/">Рекомендации</a>
-            <a href="/orders/">Клиентам</a>
-            <a href="/contacts/">Контакты</a>
-            <a href="/tariff/">Стоимость</a>
+            <a href="/recomendatsii/">Рекомендации</a>
+            <a href="/klientam/">Клиентам</a>
+            <a href="/kontakti/">Контакты</a>
+            <a href="/stoimost/">Стоимость</a>
         </nav>
     </div>
 </footer>
