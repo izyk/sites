@@ -6,7 +6,7 @@
 
       <loc>https://mebel.isklad.ru/</loc>
 
-      <lastmod>2016-05-04</lastmod>
+      <lastmod>2016-06-06</lastmod>
 
       <changefreq>weekly</changefreq>
 
@@ -16,9 +16,9 @@
 
    <url>
 
-      <loc>https://mebel.isklad.ru/recommends/</loc>
+      <loc>https://mebel.isklad.ru/recomendatsii/</loc>
 
-      <lastmod>2016-05-04</lastmod>
+      <lastmod>2016-06-06</lastmod>
 
       <changefreq>weekly</changefreq>
 
@@ -28,21 +28,21 @@
 
    <url>
 
-      <loc>https://mebel.isklad.ru/orders/</loc>
+      <loc>https://mebel.isklad.ru/klientam/</loc>
 
-      <lastmod>2016-05-04</lastmod>
+      <lastmod>2016-06-06</lastmod>
 
       <changefreq>weekly</changefreq>
 
-      <priority>0.3</priority>
+      <priority>0.4</priority>
 
    </url>
 
    <url>
 
-      <loc>https://mebel.isklad.ru/contacts/</loc>
+      <loc>https://mebel.isklad.ru/kontakti/</loc>
 
-      <lastmod>2016-05-04</lastmod>
+      <lastmod>2016-06-06</lastmod>
 
       <changefreq>weekly</changefreq>
 
@@ -52,9 +52,9 @@
 
    <url>
 
-      <loc>https://mebel.isklad.ru/tariff/</loc>
+      <loc>https://mebel.isklad.ru/stoimost/</loc>
 
-      <lastmod>2016-05-04</lastmod>
+      <lastmod>2016-06-06</lastmod>
 
       <changefreq>weekly</changefreq>
 
