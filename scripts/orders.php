@@ -5,7 +5,7 @@ $page_body=<<<"ENDBODY"
 <p class="perror">
 	$error_message
 </p>
- <form action="/orders/" method="post">
+ <form action="/klientam/" method="post">
   <fieldset>
     <legend> Обязательно для заполнения:</legend>
     Фамилия И.О.:<br>
